@@ -84,13 +84,6 @@ target_link_libraries(your_target PRIVATE cputils)
 
 ---
 
-## Debug macros
-
-The `dbg` and `dbgv` macros print to `stderr` only when `ONLINE_JUDGE` is **not** defined.  
-Most online judges (Codeforces, LeetCode, etc.) define `ONLINE_JUDGE` automatically, so your debug output is silently stripped — no need to remove it before submitting.
-
----
-
 ## Contributing
 
 PRs welcome! Planned additions:
@@ -100,4 +93,4 @@ PRs welcome! Planned additions:
 
 ---
 
-## Made with love by the us
+## Made with love ❤️
