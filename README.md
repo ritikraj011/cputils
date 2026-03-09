@@ -69,7 +69,7 @@ target_link_libraries(your_target PRIVATE cputils::cputils)
 
 ---
 
-## Manual / CMake FetchContent
+## CMake FetchContent
 
 ```cmake
 include(FetchContent)
@@ -100,6 +100,4 @@ PRs welcome! Planned additions:
 
 ---
 
-## License
-
-MIT
+## Made with love by the us
