@@ -1,6 +1,6 @@
 # cputils
 
-A lightweight, single-header C++ utility library for **Competitive Programming** and **DSA**.  
+A lightweight, single-header C++ utility library for **Programming** and **DSA**.  
 No build step. No dependencies. Just `#include` and go.
 
 ---
