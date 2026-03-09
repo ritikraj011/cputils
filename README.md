@@ -24,14 +24,17 @@ No build step. No dependencies. Just `#include` and go.
 
 ## Quick Install (recommended for CP)
 
+**Linux / macOS:**
 ```bash
 curl -O https://raw.githubusercontent.com/himaenshuu/cputils/main/include/cputils.h
 ```
 
-Or with `wget`:
-```bash
-wget https://raw.githubusercontent.com/himaenshuu/cputils/main/include/cputils.h
+**Windows (PowerShell):**
+```powershell
+Invoke-WebRequest -UseBasicParsing -Uri "https://raw.githubusercontent.com/himaenshuu/cputils/main/include/cputils.h" -OutFile "cputils.h"
 ```
+
+> Note: On Windows, `wget` and `curl` are aliases for `Invoke-WebRequest` and won't save the file without `-OutFile`. Use the command above instead.
 
 Then in your solution:
 ```cpp
